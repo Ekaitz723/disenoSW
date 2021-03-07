@@ -1,0 +1,32 @@
+Id: 0
+Documentos:
+Resultado Fecha: 15/0
+	Prueba realizada por el doctor Wang
+	Ta ciego :(
+	Evaluacion: Mal
+Factura: Costo 18.289892235086512
+	Fecha: 15/0
+	Doctor: Wang
+Resultado Fecha: 28/0
+	Prueba realizada por el doctor Fong
+	Habla bien
+	Evaluacion: Correcto
+Factura: Costo 13.89436299074767
+	Fecha: 28/0
+	Doctor: Fong
+Resultado Fecha: 15/1
+	Prueba realizada por el doctor Wang
+	Ve bien
+	Evaluacion: Correcto
+Factura: Costo 18.509934729541023
+	Fecha: 15/1
+	Doctor: Wang
+Resultado Fecha: 28/1
+	Prueba realizada por el doctor Fong
+	Habla bien
+	Evaluacion: Correcto
+Factura: Costo 15.992883444205848
+	Fecha: 28/1
+	Doctor: Fong
+
+
