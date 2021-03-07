@@ -19,12 +19,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <package id="3" language="java" name="strategy" project="Patrones" file="/Patrones/src/strategy" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="50" width="101" x="403" y="231"/>    
-    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
-  </package>  
-  <class id="4" language="java" name="strategy.Examinador" project="Patrones" 
+  <class id="3" language="java" name="strategy.Examinador" project="Patrones" 
     file="/Patrones/src/strategy/Examinador.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="135" width="163" x="747" y="231"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -33,7 +28,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="strategy.Guarderia" project="Patrones" 
+  <class id="4" language="java" name="strategy.Guarderia" project="Patrones" 
     file="/Patrones/src/strategy/Guarderia.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="99" width="113" x="1153" y="231"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -42,7 +37,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="strategy.Logopeda" project="Patrones" file="/Patrones/src/strategy/Logopeda.java" 
+  <class id="5" language="java" name="strategy.Logopeda" project="Patrones" file="/Patrones/src/strategy/Logopeda.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="135" width="163" x="950" y="231"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -51,18 +46,22 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <realization id="7">    
+  <realization id="6">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </realization>  
-  <realization id="8">    
-    <end type="SOURCE" refId="6"/>    
+  <realization id="7">    
+    <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="1"/>  
   </realization>  
-  <association id="9">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="10" name="doctor"/>      
-      <multiplicity id="11" minimum="0" maximum="1"/>    
+  <association id="8">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="9" name="doctor">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
